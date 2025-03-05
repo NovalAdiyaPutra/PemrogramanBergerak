@@ -19,6 +19,7 @@ class Halamanpertama extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.grey,
         title: Text("My App"),
       ),
       body: Center(
@@ -27,7 +28,9 @@ class Halamanpertama extends StatelessWidget {
           children: [
             Text(
               "Nama: Noval Adiya Putra",
-              style: TextStyle(fontSize: 18),
+              style: TextStyle(
+                  fontSize: 25,
+              ),
             ),
             SizedBox(height: 20),
             ElevatedButton(
